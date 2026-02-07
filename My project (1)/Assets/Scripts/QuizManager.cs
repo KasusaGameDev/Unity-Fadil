@@ -63,7 +63,6 @@ public class QuizManager : MonoBehaviour
     void Update()
     {
         if (isFinished) return;
-
         currentTime -= Time.deltaTime;
         int minutes = Mathf.FloorToInt(currentTime / 60f);
         int seconds = Mathf.FloorToInt(currentTime % 60f);
@@ -245,11 +244,11 @@ IEnumerator AnimateScore(int targetScore, float duration = 1f)
     {
         t += Time.deltaTime;
         int value = Mathf.RoundToInt(Mathf.Lerp(start, targetScore, t / duration));
-        scoreText.text = value.ToString();
+        scoreText.text = value.ToString() + " Poin";
         yield return null;
     }
 
-    scoreText.text = targetScore.ToString();
+    scoreText.text = targetScore.ToString() + " Poin";
 }
 
 IEnumerator AnimateTimeLeft(float fromTime, float toTime, float duration = 1f)
@@ -260,11 +259,11 @@ IEnumerator AnimateTimeLeft(float fromTime, float toTime, float duration = 1f)
     {
         t += Time.deltaTime;
         float value = Mathf.Lerp(fromTime, toTime, t / duration);
-        timeLeftText.text = Mathf.CeilToInt(value) + "s";
+        timeLeftText.text = Mathf.CeilToInt(value) + " Detik";
         yield return null;
     }
 
-    timeLeftText.text = Mathf.CeilToInt(toTime) + "s";
+    timeLeftText.text = Mathf.CeilToInt(toTime) + " Detik";
 }
 
 
