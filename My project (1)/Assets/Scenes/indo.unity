@@ -3523,58 +3523,59 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuizManager
   questions:
-  - questionText: "Which sentence is grammatically correct to describe a daily routine?\t\t\t"
-    correctAnswer: He goes to school every morning.
-    wrongAnswer1: He going to school every morning.
-    wrongAnswer2: He gone to school every morning.
-    wrongAnswer3: He go to school every morning.
-  - questionText: "Choose the best response for: 'How do you do?'..\t"
-    correctAnswer: How do you do?
-    wrongAnswer1: Iam doping my homework.
-    wrongAnswer2: Iam fine,thank you.
-    wrongAnswer3: Nice to meet you too.
-  - questionText: What is the past tense of the verb 'Eat'?
-    correctAnswer: Ate
-    wrongAnswer1: Eaten
-    wrongAnswer2: Eating
-    wrongAnswer3: Eated
-  - questionText: 'Complete the sentence: ''She is the __ girl in our class.''
-
-'
-    correctAnswer: Smartest
-    wrongAnswer1: More smart
-    wrongAnswer2: Smart
-    wrongAnswer3: Smarter
-  - questionText: What does the word 'Gigantic' mean?
-    correctAnswer: Very huge
-    wrongAnswer1: Very small
-    wrongAnswer2: Very beautiful
-    wrongAnswer3: Very fast
-  - questionText: 'Fill in the blank: ''I __ to the cinema last night.'''
-    correctAnswer: Went
-    wrongAnswer1: Was go
-    wrongAnswer2: Go
-    wrongAnswer3: Gone
-  - questionText: Which of these is a fruit?
-    correctAnswer: Pineapple
-    wrongAnswer1: Spinach
-    wrongAnswer2: Potato
-    wrongAnswer3: Carrot
-  - questionText: What is the antonym of 'Expensive'?
-    correctAnswer: Cheap
-    wrongAnswer1: Costly
-    wrongAnswer2: Valuable
-    wrongAnswer3: Rich
-  - questionText: 'Choose the correct preposition: ''The book is __ the table.'''
-    correctAnswer: On
-    wrongAnswer1: Beetwen
-    wrongAnswer2: At
-    wrongAnswer3: In
-  - questionText: 'Complete the phrase: ''Break a __!'' (meaning Good Luck)'
-    correctAnswer: Leg
-    wrongAnswer1: Heart
-    wrongAnswer2: Window
-    wrongAnswer3: Arm
+  - questionText: "Rangkaian kata yang memiliki makna dan diakhiri tanda baca disebut
+      \u2026"
+    correctAnswer: Kalimat
+    wrongAnswer1: Kata
+    wrongAnswer2: Paragraf
+    wrongAnswer3: Huruf
+  - questionText: Manakah kata baku yang benar?
+    correctAnswer: Izin
+    wrongAnswer1: Resiko
+    wrongAnswer2: Nomer
+    wrongAnswer3: Aktifitas
+  - questionText: Sinonim kata "rajin" adalah...
+    correctAnswer: Malas
+    wrongAnswer1: Bodoh
+    wrongAnswer2: Lambat
+    wrongAnswer3: Tekun
+  - questionText: Si kancil yang biajk masuk dalam cerita
+    correctAnswer: Fiksi
+    wrongAnswer1: Non Fiksi
+    wrongAnswer2: Legenda
+    wrongAnswer3: Mitos
+  - questionText: Kalimat yang mengandung makna konotatif adalah...
+    correctAnswer: Ia menjadi tulang punggung keluarga
+    wrongAnswer1: Ayah membeli meja baru di toko mabel
+    wrongAnswer2: Harga buku itu sangat mahal
+    wrongAnswer3: Adik duduk di kursi kayu
+  - questionText: Manakah kalimat yang di tandai oleh pennggunaan kata hubung?
+    correctAnswer: Dan
+    wrongAnswer1: Jika
+    wrongAnswer2: Agar
+    wrongAnswer3: Karena
+  - questionText: Makna kata "kepala" pada kalimat "Ia menjadi kepala sekolah"
+    correctAnswer: Pemimpin
+    wrongAnswer1: Bagian Tubuh
+    wrongAnswer2: Rambut
+    wrongAnswer3: Otak
+  - questionText: Pernyataan yang tepat mengenai kalimat efektif
+    correctAnswer: Singkat, padat, dan mudah di pahami
+    wrongAnswer1: Selalu menggunakan kata baku asing
+    wrongAnswer2: Mengandung kata kiasan
+    wrongAnswer3: Menggunakan banyak kata agar jelas
+  - questionText: Unsur yang berkaitan dengan pesan dari seoraang Penyair terhadap
+      sebuah puisi adalah
+    correctAnswer: Amanat
+    wrongAnswer1: Tema
+    wrongAnswer2: Diksi
+    wrongAnswer3: Imajinasi
+  - questionText: Majas yang membuat sebuah benda mati menjadi benda yang hidup/bergerak
+      disebut...
+    correctAnswer: Personifikasi
+    wrongAnswer1: 'Metafora '
+    wrongAnswer2: Hiperbola
+    wrongAnswer3: Matonomia
   questionTextUI: {fileID: 1396417851}
   answerButtons:
   - {fileID: 1223392087}

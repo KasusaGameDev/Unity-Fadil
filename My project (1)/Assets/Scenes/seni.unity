@@ -3523,58 +3523,59 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuizManager
   questions:
-  - questionText: "Which sentence is grammatically correct to describe a daily routine?\t\t\t"
-    correctAnswer: He goes to school every morning.
-    wrongAnswer1: He going to school every morning.
-    wrongAnswer2: He gone to school every morning.
-    wrongAnswer3: He go to school every morning.
+  - questionText: Tinggi rendahnya nada dalam musik disebut...
+    correctAnswer: Pitch (Titik Nada)
+    wrongAnswer1: Tempo
+    wrongAnswer2: Ritme
+    wrongAnswer3: Dinamika
   - questionText: "Choose the best response for: 'How do you do?'..\t"
     correctAnswer: How do you do?
     wrongAnswer1: Iam doping my homework.
     wrongAnswer2: Iam fine,thank you.
     wrongAnswer3: Nice to meet you too.
-  - questionText: What is the past tense of the verb 'Eat'?
-    correctAnswer: Ate
-    wrongAnswer1: Eaten
-    wrongAnswer2: Eating
-    wrongAnswer3: Eated
-  - questionText: 'Complete the sentence: ''She is the __ girl in our class.''
-
-'
-    correctAnswer: Smartest
-    wrongAnswer1: More smart
-    wrongAnswer2: Smart
-    wrongAnswer3: Smarter
-  - questionText: What does the word 'Gigantic' mean?
-    correctAnswer: Very huge
-    wrongAnswer1: Very small
-    wrongAnswer2: Very beautiful
-    wrongAnswer3: Very fast
-  - questionText: 'Fill in the blank: ''I __ to the cinema last night.'''
-    correctAnswer: Went
-    wrongAnswer1: Was go
-    wrongAnswer2: Go
-    wrongAnswer3: Gone
-  - questionText: Which of these is a fruit?
-    correctAnswer: Pineapple
-    wrongAnswer1: Spinach
-    wrongAnswer2: Potato
-    wrongAnswer3: Carrot
-  - questionText: What is the antonym of 'Expensive'?
-    correctAnswer: Cheap
-    wrongAnswer1: Costly
-    wrongAnswer2: Valuable
-    wrongAnswer3: Rich
-  - questionText: 'Choose the correct preposition: ''The book is __ the table.'''
-    correctAnswer: On
-    wrongAnswer1: Beetwen
-    wrongAnswer2: At
-    wrongAnswer3: In
-  - questionText: 'Complete the phrase: ''Break a __!'' (meaning Good Luck)'
-    correctAnswer: Leg
-    wrongAnswer1: Heart
-    wrongAnswer2: Window
-    wrongAnswer3: Arm
+  - questionText: Properti utama dalam tari Piring asal Sumatera Barat adalah
+    correctAnswer: Piring
+    wrongAnswer1: Payung
+    wrongAnswer2: Keris
+    wrongAnswer3: Selendang
+  - questionText: Pertunjukan drama yang menggabungkan dialog, musik, dan tarian
+      disebut...
+    correctAnswer: Opera/Teater Musikal
+    wrongAnswer1: Puisi
+    wrongAnswer2: Pantomim
+    wrongAnswer3: Monolog
+  - questionText: Warna hijau dihasilkan dari campuran warna...
+    correctAnswer: Kuning dan Biru
+    wrongAnswer1: Merah dan Kuning
+    wrongAnswer2: Hitam dan Putih
+    wrongAnswer3: Merah dan Biru
+  - questionText: 
+    correctAnswer: Biru
+    wrongAnswer1: Ungu
+    wrongAnswer2: Hitam
+    wrongAnswer3: Hijau
+  - questionText: Garis yang memberikan kesan tenang, statis, dan stabil adalah...
+    correctAnswer: Garis Horizontal
+    wrongAnswer1: Garis Vertikal
+    wrongAnswer2: Garis Zig-Zag
+    wrongAnswer3: Garis Lengkung
+  - questionText: 'Teknik melukis dengan cara menempelkan pecahan kaca, batu, atau
+      keramik kecil '
+    correctAnswer: Mozaik
+    wrongAnswer1: Plakat
+    wrongAnswer2: Aquarel
+    wrongAnswer3: Siluet
+  - questionText: Patung termasuk ke dalam karya seni rupa...
+    correctAnswer: 3D
+    wrongAnswer1: 2D
+    wrongAnswer2: 4D
+    wrongAnswer3: Terapan
+  - questionText: Siapakah pelukis terkenal asal Indonesia yang dikenal dengan aliran
+      ekspresionismenya?
+    correctAnswer: Affandi
+    wrongAnswer1: Raden Saleh
+    wrongAnswer2: Leonardo da Vinci
+    wrongAnswer3: Basuki Abdullah
   questionTextUI: {fileID: 1396417851}
   answerButtons:
   - {fileID: 1223392087}

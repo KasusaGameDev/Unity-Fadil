@@ -3523,58 +3523,62 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuizManager
   questions:
-  - questionText: "Which sentence is grammatically correct to describe a daily routine?\t\t\t"
-    correctAnswer: He goes to school every morning.
-    wrongAnswer1: He going to school every morning.
-    wrongAnswer2: He gone to school every morning.
-    wrongAnswer3: He go to school every morning.
-  - questionText: "Choose the best response for: 'How do you do?'..\t"
-    correctAnswer: How do you do?
-    wrongAnswer1: Iam doping my homework.
-    wrongAnswer2: Iam fine,thank you.
-    wrongAnswer3: Nice to meet you too.
-  - questionText: What is the past tense of the verb 'Eat'?
-    correctAnswer: Ate
-    wrongAnswer1: Eaten
-    wrongAnswer2: Eating
-    wrongAnswer3: Eated
-  - questionText: 'Complete the sentence: ''She is the __ girl in our class.''
-
-'
-    correctAnswer: Smartest
-    wrongAnswer1: More smart
-    wrongAnswer2: Smart
-    wrongAnswer3: Smarter
-  - questionText: What does the word 'Gigantic' mean?
-    correctAnswer: Very huge
-    wrongAnswer1: Very small
-    wrongAnswer2: Very beautiful
-    wrongAnswer3: Very fast
-  - questionText: 'Fill in the blank: ''I __ to the cinema last night.'''
-    correctAnswer: Went
-    wrongAnswer1: Was go
-    wrongAnswer2: Go
-    wrongAnswer3: Gone
-  - questionText: Which of these is a fruit?
-    correctAnswer: Pineapple
-    wrongAnswer1: Spinach
-    wrongAnswer2: Potato
-    wrongAnswer3: Carrot
-  - questionText: What is the antonym of 'Expensive'?
-    correctAnswer: Cheap
-    wrongAnswer1: Costly
-    wrongAnswer2: Valuable
-    wrongAnswer3: Rich
-  - questionText: 'Choose the correct preposition: ''The book is __ the table.'''
-    correctAnswer: On
-    wrongAnswer1: Beetwen
-    wrongAnswer2: At
-    wrongAnswer3: In
-  - questionText: 'Complete the phrase: ''Break a __!'' (meaning Good Luck)'
-    correctAnswer: Leg
-    wrongAnswer1: Heart
-    wrongAnswer2: Window
-    wrongAnswer3: Arm
+  - questionText: Perangkat keras komputer yang berfungsi sebagai 'otak' dan pusat
+      pemrosesan data adalah...
+    correctAnswer: CPU(Processor)
+    wrongAnswer1: Harddisk
+    wrongAnswer2: Monitor
+    wrongAnswer3: RAM
+  - questionText: Manakah di bawah ini yang merupakan contoh sistem operasi (Operating
+      System)?
+    correctAnswer: Linux
+    wrongAnswer1: Adobe Photoshop
+    wrongAnswer2: Google Chrome
+    wrongAnswer3: Microsoft Word
+  - questionText: Kepanjangan dari WWW dalam sebuah alamat situs web adalah.
+    correctAnswer: World Wide Web
+    wrongAnswer1: Web Wide World
+    wrongAnswer2: World Web Wide
+    wrongAnswer3: Wide World Web
+  - questionText: Apa kepanjangan dari URL?
+    correctAnswer: Uniform Resource Locator
+    wrongAnswer1: User Resource Language
+    wrongAnswer2: Universal Resource Link
+    wrongAnswer3: United Radio Location
+  - questionText: Tombol pada keyboard yang berfungsi untuk membatalkan suatu perintah
+      atau keluar dari menu adalah..
+    correctAnswer: Esc (Escape)
+    wrongAnswer1: Space
+    wrongAnswer2: Shift
+    wrongAnswer3: Tab
+  - questionText: Satu Kilobyte (KB) sama dengan berapa Byte?
+    correctAnswer: 1.000 Byte
+    wrongAnswer1: 1.024 ByteC
+    wrongAnswer2: O48 Byte
+    wrongAnswer3: 100 Byte
+  - questionText: Apa fungsi utama dari perangkat lunak Antivirus?
+    correctAnswer: Melindungi komputer dari malware dan virus
+    wrongAnswer1: Mempercepat koneksi internet
+    wrongAnswer2: Membersihkan debu pada CPU
+    wrongAnswer3: Mengolah angka
+  - questionText: Manakah yang merupakan media penyimpanan data nirkabel/awan (Cloud
+      Storage)?
+    correctAnswer: Google Drive
+    wrongAnswer1: CD-ROM
+    wrongAnswer2: RAM
+    wrongAnswer3: FlashDisk
+  - questionText: Dalam penulisan rumus di Microsoft Excel, simbol yang wajib digunakan
+      di awal rumus adalah..
+    correctAnswer: =
+    wrongAnswer1: +
+    wrongAnswer2: '#'
+    wrongAnswer3: '*'
+  - questionText: Istilah untuk kegiatan menyalin data dari komputer lokal ke internet
+      disebut...
+    correctAnswer: Upload
+    wrongAnswer1: Update
+    wrongAnswer2: Install
+    wrongAnswer3: Download
   questionTextUI: {fileID: 1396417851}
   answerButtons:
   - {fileID: 1223392087}
