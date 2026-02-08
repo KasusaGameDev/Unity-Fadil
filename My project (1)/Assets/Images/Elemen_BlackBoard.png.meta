@@ -818,7 +818,7 @@ TextureImporter:
         width: 313
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -840,7 +840,7 @@ TextureImporter:
         width: 239
         height: 232
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -849,6 +849,28 @@ TextureImporter:
       bones: []
       spriteID: ce377b28349be5a4c8b93e9ceeb4b131
       internalID: 24424925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemen_BlackBoard_30
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 242
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d695cf39a0110e14ea75675cfad0ded1
+      internalID: 898228314
       vertices: []
       indices: 
       edges: []
@@ -893,6 +915,7 @@ TextureImporter:
       Elemen_BlackBoard_28: -238661091
       Elemen_BlackBoard_29: 24424925
       Elemen_BlackBoard_3: 528208442911031151
+      Elemen_BlackBoard_30: 898228314
       Elemen_BlackBoard_4: 4640140700329088700
       Elemen_BlackBoard_5: 782492579756802854
       Elemen_BlackBoard_6: 6956038887408275380

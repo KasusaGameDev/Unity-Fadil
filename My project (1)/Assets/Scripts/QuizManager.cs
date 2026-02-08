@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class QuizManager : MonoBehaviour
 {
@@ -22,6 +24,8 @@ public class QuizManager : MonoBehaviour
     public Text questionTextUI;
     public Button[] answerButtons; // 4 button
     public Text timerText;
+    public Button nextBTN;
+    public Button tryAgainBTN;
 
     [Header("RESULT POPUP")]
     public Image popupResult;
@@ -143,8 +147,6 @@ public class QuizManager : MonoBehaviour
     int score = Mathf.RoundToInt((float)correctCount / questions.Count * 100f);
 
     popupResult.gameObject.SetActive(true);
-    // AnimateScale(popupResult.transform, 0.15f);
-
     StopAllCoroutines();
 
     StartCoroutine(AnimateScore(score));
@@ -153,8 +155,13 @@ public class QuizManager : MonoBehaviour
 
     gradeText.text = GetGrade(score);
 
+    // === LOGIC BUTTON ===
+    nextBTN.gameObject.SetActive(score >= 71);
+    tryAgainBTN.gameObject.SetActive(score < 100);
+
     Debug.Log("FINAL SCORE: " + score);
 }
+
 
 
     // =====================
@@ -171,27 +178,6 @@ public class QuizManager : MonoBehaviour
     // =====================
     // UTIL
     // =====================
-
-    void AnimateScale(Transform target, float duration)
-    {
-        StopCoroutine("ScaleTween");
-        StartCoroutine(ScaleTween(target, Vector3.zero, Vector3.one, duration));
-    }
-
-    IEnumerator ScaleTween(Transform target, Vector3 from, Vector3 to, float duration)
-    {
-        float t = 0f;
-        target.localScale = from;
-
-        while (t < duration)
-        {
-            t += Time.deltaTime;
-            target.localScale = Vector3.Lerp(from, to, t / duration);
-            yield return null;
-        }
-
-        target.localScale = to;
-    }
 
     string GetGrade(int score)
     {
@@ -211,6 +197,16 @@ public class QuizManager : MonoBehaviour
             (list[i], list[rnd]) = (list[rnd], list[i]);
         }
     }
+
+public void OnNextButton()
+{
+    SceneManager.LoadScene("Map");
+}
+
+public void OnTryAgainButton()
+{
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+}
 
 
     IEnumerator TypeText(Text uiText, string fullText)
