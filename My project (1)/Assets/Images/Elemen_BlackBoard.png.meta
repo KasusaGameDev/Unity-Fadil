@@ -862,7 +862,7 @@ TextureImporter:
         width: 122
         height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -871,6 +871,72 @@ TextureImporter:
       bones: []
       spriteID: d695cf39a0110e14ea75675cfad0ded1
       internalID: 898228314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemen_BlackBoard_31
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 80
+        width: 203
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880c72008b48396488d0a7d3c12645fa
+      internalID: 2112451748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemen_BlackBoard_32
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 83
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1070835ee700d324f890050937e50315
+      internalID: 2038533899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elemen_BlackBoard_33
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 81
+        width: 69
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244bab907849d9948ba6897d93b28885
+      internalID: -1279191884
       vertices: []
       indices: 
       edges: []
@@ -916,6 +982,9 @@ TextureImporter:
       Elemen_BlackBoard_29: 24424925
       Elemen_BlackBoard_3: 528208442911031151
       Elemen_BlackBoard_30: 898228314
+      Elemen_BlackBoard_31: 2112451748
+      Elemen_BlackBoard_32: 2038533899
+      Elemen_BlackBoard_33: -1279191884
       Elemen_BlackBoard_4: 4640140700329088700
       Elemen_BlackBoard_5: 782492579756802854
       Elemen_BlackBoard_6: 6956038887408275380

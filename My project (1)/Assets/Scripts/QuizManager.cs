@@ -156,7 +156,7 @@ public class QuizManager : MonoBehaviour
     gradeText.text = GetGrade(score);
 
     // === LOGIC BUTTON ===
-    nextBTN.gameObject.SetActive(score >= 71);
+    nextBTN.gameObject.SetActive(score >= 70);
     tryAgainBTN.gameObject.SetActive(score < 100);
 
     Debug.Log("FINAL SCORE: " + score);
@@ -181,11 +181,11 @@ public class QuizManager : MonoBehaviour
 
     string GetGrade(int score)
     {
-        if (score >= 91) return "A";
-        if (score >= 81) return "B";
-        if (score >= 71) return "C";
-        if (score >= 61) return "D";
-        if (score >= 41) return "E";
+        if (score >= 90) return "A";
+        if (score >= 80) return "B";
+        if (score >= 70) return "C";
+        if (score >= 60) return "D";
+        if (score >= 40) return "E";
         return "F";
     }
 
@@ -201,6 +201,10 @@ public class QuizManager : MonoBehaviour
 public void OnNextButton()
 {
     SceneManager.LoadScene("Map");
+    if (PlayerProgress.Instance == null) return;
+    int level = PlayerProgress.Instance.level;
+    int score = Mathf.RoundToInt((float)correctCount / questions.Count * 100f);
+    PlayerProgress.Instance.points[level-1] = score;
 }
 
 public void OnTryAgainButton()
