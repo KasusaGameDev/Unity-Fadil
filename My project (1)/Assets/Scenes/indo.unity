@@ -2089,8 +2089,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 4.012}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 54.3, y: 115.7851}
-  m_SizeDelta: {x: 175.1012, y: 25.3093}
+  m_AnchoredPosition: {x: 55.2, y: 100.1}
+  m_SizeDelta: {x: 175.1012, y: 49.7734}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &818438231
 MonoBehaviour:
@@ -2125,7 +2125,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Bahasa Inggris
+  m_Text: Bahasa Indonesia
 --- !u!222 &818438232
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3590,7 +3590,7 @@ MonoBehaviour:
   timeLeftText: {fileID: 727379414}
   rightAnswerText: {fileID: 787263515}
   gradeText: {fileID: 1966129830}
-  totalTime: 60
+  totalTime: 80
   warningTime: 10
   audioSource: {fileID: 1539981756}
   chooseClip: {fileID: 8300000, guid: cbc68d916493e2943b9e5b8ea1144ad7, type: 3}

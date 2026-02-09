@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms;
 
 
 public class QuizManager : MonoBehaviour
@@ -50,7 +51,7 @@ public class QuizManager : MonoBehaviour
 
     private bool isFinished = false;
     private bool lastTenSecondsTriggered = false;
-
+    private Coroutine timerBlinkCoroutine;
 
     [Header("TYPEWRITER")]
     public float typingSpeed = 0.03f;
@@ -169,11 +170,12 @@ public class QuizManager : MonoBehaviour
     // =====================
 
     void OnLastTenSeconds()
-    {
-        // isi sendiri:
-        // - play warning sound
-        // - anim timer merah / putih
-    }
+{
+    if (timerBlinkCoroutine != null)
+        StopCoroutine(timerBlinkCoroutine);
+
+    timerBlinkCoroutine = StartCoroutine(BlinkTimerText());
+}
 
     // =====================
     // UTIL
@@ -259,11 +261,12 @@ IEnumerator AnimateTimeLeft(float fromTime, float toTime, float duration = 1f)
     {
         t += Time.deltaTime;
         float value = Mathf.Lerp(fromTime, toTime, t / duration);
-        timeLeftText.text = Mathf.CeilToInt(value) + " Detik";
+        float a = value - 1;
+        timeLeftText.text = Mathf.CeilToInt(a) + " Detik";
         yield return null;
     }
-
-    timeLeftText.text = Mathf.CeilToInt(toTime) + " Detik";
+    float b = toTime - 1;
+    timeLeftText.text = Mathf.CeilToInt(b) + " Detik";
 }
 
 
@@ -283,5 +286,21 @@ IEnumerator AnimateRightAnswer(int targetCorrect, int totalQuestion, float durat
     rightAnswerText.text = targetCorrect + "/" + totalQuestion;
 }
 
+IEnumerator BlinkTimerText()
+{
+    Color yellow = Color.yellow;
+    Color white = Color.white;
+
+    while (!isFinished && currentTime > 0)
+    {
+        timerText.color = yellow;
+        yield return new WaitForSeconds(0.5f);
+
+        timerText.color = white;
+        yield return new WaitForSeconds(0.5f);
+    }
+
+    timerText.color = white; // reset
+}
 
 }
