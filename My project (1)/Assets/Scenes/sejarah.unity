@@ -3308,17 +3308,18 @@ MonoBehaviour:
     wrongAnswer1: Dokuritsu Junbi Cosakai
     wrongAnswer2: Keibodan
     wrongAnswer3: Heiho
-  - questionText: Lembaga yang bertugas m
-    correctAnswer: DPRD Provinsi
-    wrongAnswer1: Bupati
-    wrongAnswer2: Gubernur
-    wrongAnswer3: DPR RI
-  - questionText: Contoh perilaku yang mencerminkan cinta tanah air di lingkungan
-      sekolah adalah...
-    correctAnswer: Satu nusa, satu bangsa, satu bahasa
-    wrongAnswer1: Beragam budaya itu indah
-    wrongAnswer2: Bersatu kita teguh bercerai kita runtuh
-    wrongAnswer3: Berbeda-beda tetapi tetap satu jua
+  - questionText: Perjanjian yang secara resmi mengakhiiri sengketa kedaulatan antara
+      Indonesia dan Belanda pada tahun 1949 adalah
+    correctAnswer: Konferensi Meja Bundar (KMB)
+    wrongAnswer1: Perjanjian Linggarjati
+    wrongAnswer2: Perjanjian Renville
+    wrongAnswer3: Perjanjian Roem-Royen
+  - questionText: Pencetus Sumpah Palapa yang bertekad menyatukan Nusantara di bawah
+      kekuasaan Majapahit adalah...
+    correctAnswer: Gajah Mada
+    wrongAnswer1: Ken Arok
+    wrongAnswer2: Hayam Wuruk
+    wrongAnswer3: Raden Wiajaya
   questionTextUI: {fileID: 1396417851}
   answerButtons:
   - {fileID: 1223392087}

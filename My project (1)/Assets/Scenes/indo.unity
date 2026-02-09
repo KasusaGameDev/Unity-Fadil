@@ -3539,7 +3539,7 @@ MonoBehaviour:
     wrongAnswer1: Bodoh
     wrongAnswer2: Lambat
     wrongAnswer3: Tekun
-  - questionText: Si kancil yang biajk masuk dalam cerita
+  - questionText: Si kancil yang bijak masuk dalam cerita
     correctAnswer: Fiksi
     wrongAnswer1: Non Fiksi
     wrongAnswer2: Legenda

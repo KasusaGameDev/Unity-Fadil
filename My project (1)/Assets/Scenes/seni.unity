@@ -3528,11 +3528,12 @@ MonoBehaviour:
     wrongAnswer1: Tempo
     wrongAnswer2: Ritme
     wrongAnswer3: Dinamika
-  - questionText: "Choose the best response for: 'How do you do?'..\t"
-    correctAnswer: How do you do?
-    wrongAnswer1: Iam doping my homework.
-    wrongAnswer2: Iam fine,thank you.
-    wrongAnswer3: Nice to meet you too.
+  - questionText: 'Alat musik yang sumber bunyinya berasal dari dawai atau senar
+      disebut... '
+    correctAnswer: Chordophone
+    wrongAnswer1: Membranophone
+    wrongAnswer2: Idiophone
+    wrongAnswer3: Aerophone
   - questionText: Properti utama dalam tari Piring asal Sumatera Barat adalah
     correctAnswer: Piring
     wrongAnswer1: Payung
@@ -3549,7 +3550,7 @@ MonoBehaviour:
     wrongAnswer1: Merah dan Kuning
     wrongAnswer2: Hitam dan Putih
     wrongAnswer3: Merah dan Biru
-  - questionText: 
+  - questionText: Warna primer terdiri dari merah, kuning, dan...
     correctAnswer: Biru
     wrongAnswer1: Ungu
     wrongAnswer2: Hitam

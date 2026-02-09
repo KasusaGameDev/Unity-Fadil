@@ -3146,10 +3146,10 @@ MonoBehaviour:
     wrongAnswer3: DPR RI
   - questionText: Contoh perilaku yang mencerminkan cinta tanah air di lingkungan
       sekolah adalah...
-    correctAnswer: Satu nusa, satu bangsa, satu bahasa
-    wrongAnswer1: Beragam budaya itu indah
-    wrongAnswer2: Bersatu kita teguh bercerai kita runtuh
-    wrongAnswer3: Berbeda-beda tetapi tetap satu jua
+    correctAnswer: Mengikuti Upacara bendera dengan khidmat
+    wrongAnswer1: Berteman hanya dengan satu suku
+    wrongAnswer2: Mengerjakan tugas agar mendapat nilai bagus
+    wrongAnswer3: Membawa bekal makanan dari rumah
   questionTextUI: {fileID: 1396417851}
   answerButtons:
   - {fileID: 1223392087}
